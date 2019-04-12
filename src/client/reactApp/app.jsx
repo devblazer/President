@@ -2,6 +2,8 @@ import React from 'react';
 
 import appStyle from './app.scss';
 
+import Card from './ui/card/card.jsx';
+
 export default function App() {
-	return <p className={appStyle.app}>"hello world"</p>;
+	return <Card suit={'S'} type={3} />;
 };

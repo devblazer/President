@@ -1,6 +1,6 @@
 {
-  "name": "presedent",
-  "version": "1.0.0",
+  "name": "Presedent",
+  "version": "0.0.0",
   "description": "A web-based multiplayer version of the 'president' card game using RxJS and friends",
   "main": "",
   "scripts": {
@@ -24,9 +24,15 @@
     ],
     "testURL": "http://localhost:3000/"
   },
+  "repository": "https://github.com/devblazer/President",
   "author": "Ashley Roux",
   "license": "ISC",
-  "keywords": ["React", "webpack", "rxJS", "Game"],
+  "keywords": [
+    "React",
+    "Webpack",
+    "RxJS",
+    "Game"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
@@ -65,6 +71,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "rect": "^1.2.1",
     "redux": "^4.0.1",
     "redux-saga": "^1.0.2",
     "rxjs": "^6.4.0"
